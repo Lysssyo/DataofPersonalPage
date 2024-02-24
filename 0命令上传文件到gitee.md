@@ -4,4 +4,4 @@
 
 ​		然后，打开gitee，右上角点“➕”，从Github导入仓库，导入刚刚在Github新建的仓库即可。
 
-![image-20240225012818343](0命令上传文件到gitee.assets/image-20240225012818343-17087957223621.png)
+![image-20240225012818343](ZeroOrderTOgitee.assets/image-20240225012818343-17087957223621.png)
