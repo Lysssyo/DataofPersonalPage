@@ -1,8 +1,14 @@
-Tittle：基于Springboot开发微信小程序
+Tittle：基于Springboot开发微信小程序（前端）
 
-对应assets：WXMiniProAboveSpringboot
+对应assets：WXMiniProgarmAboveSpringboot
 
-UpdateTime：2024年2月23日
+UpdateTime：2024年2月26日
+
+Tittle：基于Springboot开发微信小程序（后端）
+
+对应assets：WXMiniProAboveSpringboot2
+
+UpdateTime：2024年2月26日
 
 Tittle：Springboot项目上传服务器
 
