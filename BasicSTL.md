@@ -342,3 +342,31 @@ int main(){
 <img src="STL.assets/image-20240229194324958.png" alt="image-20240229194324958" style="zoom:80%;" />
 
 <img src="STL.assets/image-20240229194344039.png" alt="image-20240229194344039" style="zoom:80%;" />
+
+```c++
+#include<iostream>
+#include<map>
+using namespace std;
+map<string,map<string,int> > m;
+int main(){
+	int N;
+	string s1,s2;
+	int num;
+	cin>>N;
+	for(int i=0;i<N;i++){
+		cin>>s1>>s2;
+		cin>>num;
+		m[s2][s1]+=num;//如果还没有的话会初始化一个 
+	}
+	for(map<string,map<string,int> >::iterator it=m.begin();it!=m.end();it++){
+		
+		cout<<it->first<<endl;
+		for(map<string,int>::iterator it2=(it->second).begin();it2!=(it->second).end();it2++){
+//			printf("-----|%s(%d)\n",it2->first.c_str(),it2->second);			
+			cout<<"   ----|"<<it2->first<<"("<<it2->second<<")"<<endl;
+		}
+	}	
+	return 0;
+}
+```
+
